@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TimeBacktracking"
         mc:Ignorable="d"
-        Title="Time Backtracking" Height="100" Width="190" WindowStyle="ToolWindow" Closing="Window_Closing">
+        Title="Time Backtracking" Height="100" Width="190" WindowStyle="ToolWindow" Closing="Window_Closing" ResizeMode="NoResize">
     <Grid>
         <Button x:Name="startBtn" Content="Backtrack" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Click="startBtn_Click" Margin="10,10,0,0"/>
         <Button x:Name="stopBtn" Content="Stop" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Click="stopBtn_Click" Margin="10,34,0,0"/>

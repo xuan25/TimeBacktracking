@@ -171,7 +171,10 @@ namespace TimeBacktracking
 
         private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
         {
-            stopBtn_Click(null, null);
+            if(thread != null)
+            {
+                stopBtn_Click(null, null);
+            }
         }
     }
 }
